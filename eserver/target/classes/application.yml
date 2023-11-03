@@ -1,0 +1,15 @@
+server:
+  port: 8761
+
+spring:
+  application:
+    name: server
+
+  eureka:
+    client:
+      registerWithEureka: false
+      fetchRegistry: false
+    server:
+        waitTimeInMsWhenSyncEmpty: 0
+        instance:
+          hstname: localhost

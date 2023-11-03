@@ -1,0 +1,73 @@
+2023-11-03 16-01-55.012 [INFO] com.example.reportingManager.ReportingMnagerApplication [main] Starting ReportingMnagerApplication using Java 17.0.8 with PID 5824 (C:\Users\Sreenivas Bandaru\Desktop\spring boot\reportingMnager\target\classes started by Sreenivas Bandaru in C:\Users\Sreenivas Bandaru\Desktop\spring boot\jwt-gateway)
+2023-11-03 16-01-55.034 [DEBUG] com.example.reportingManager.ReportingMnagerApplication [main] Running with Spring Boot v3.1.4, Spring v6.0.12
+2023-11-03 16-01-55.034 [INFO] com.example.reportingManager.ReportingMnagerApplication [main] No active profile set, falling back to 1 default profile: "default"
+2023-11-03 16-01-57.599 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-11-03 16-01-57.794 [INFO] org.springframework.data.repository.config.RepositoryConfigurationDelegate [main] Finished Spring Data repository scanning in 175 ms. Found 1 JPA repository interfaces.
+2023-11-03 16-01-58.085 [INFO] org.springframework.cloud.context.scope.GenericScope [main] BeanFactory id=4f0cc729-a9b3-3aa7-910f-50cc0c53f75f
+2023-11-03 16-01-58.603 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat initialized with port(s): 8087 (http)
+2023-11-03 16-01-58.612 [INFO] org.apache.catalina.core.StandardService [main] Starting service [Tomcat]
+2023-11-03 16-01-58.612 [INFO] org.apache.catalina.core.StandardEngine [main] Starting Servlet engine: [Apache Tomcat/10.1.13]
+2023-11-03 16-01-58.736 [INFO] org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] [main] Initializing Spring embedded WebApplicationContext
+2023-11-03 16-01-58.737 [INFO] org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext [main] Root WebApplicationContext: initialization completed in 3469 ms
+2023-11-03 16-01-58.825 [DEBUG] com.example.reportingManager.Security.JwtAuthenticationFilter [main] Filter 'jwtAuthenticationFilter' configured for use
+2023-11-03 16-01-58.966 [INFO] org.hibernate.jpa.internal.util.LogHelper [main] HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-11-03 16-01-59.018 [INFO] org.hibernate.Version [main] HHH000412: Hibernate ORM core version 6.2.9.Final
+2023-11-03 16-01-59.021 [INFO] org.hibernate.cfg.Environment [main] HHH000406: Using bytecode reflection optimizer
+2023-11-03 16-01-59.191 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-03 16-01-59.330 [INFO] org.springframework.orm.jpa.persistenceunit.SpringPersistenceUnitInfo [main] No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-11-03 16-01-59.349 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Starting...
+2023-11-03 16-01-59.660 [INFO] com.zaxxer.hikari.pool.HikariPool [main] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@654b899f
+2023-11-03 16-01-59.662 [INFO] com.zaxxer.hikari.HikariDataSource [main] HikariPool-1 - Start completed.
+2023-11-03 16-02-00.015 [INFO] org.hibernate.bytecode.internal.BytecodeProviderInitiator [main] HHH000021: Bytecode provider name : bytebuddy
+2023-11-03 16-02-00.879 [INFO] org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator [main] HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-11-03 16-02-01.013 [INFO] org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean [main] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-11-03 16-02-01.489 [WARN] org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration [main] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-11-03 16-02-01.569 [WARN] org.springframework.boot.autoconfigure.security.servlet.UserDetailsServiceAutoConfiguration [main] 
+
+Using generated security password: fbd4498f-824b-4a58-b89b-6fee35078cf3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2023-11-03 16-02-01.869 [INFO] org.springframework.security.web.DefaultSecurityFilterChain [main] Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@c7aac7c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7ab8f93, org.springframework.security.web.context.SecurityContextHolderFilter@30b075b9, org.springframework.security.web.header.HeaderWriterFilter@513ddf5f, org.springframework.security.web.authentication.logout.LogoutFilter@19a544cd, com.example.reportingManager.Security.JwtAuthenticationFilter@7135ce0a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@54a98358, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2c56e044, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6037748a, org.springframework.security.web.session.SessionManagementFilter@6f51d1cc, org.springframework.security.web.access.ExceptionTranslationFilter@2a20aa4e, org.springframework.security.web.access.intercept.AuthorizationFilter@7e9ea888]
+2023-11-03 16-02-02.220 [INFO] org.springframework.cloud.netflix.eureka.config.DiscoveryClientOptionalArgsConfiguration [main] Eureka HTTP Client uses RestTemplate.
+2023-11-03 16-02-02.318 [WARN] org.springframework.cloud.loadbalancer.config.LoadBalancerCacheAutoConfiguration$LoadBalancerCaffeineWarnLogger [main] Spring Cloud LoadBalancer is currently working with the default cache. While this cache implementation is useful for development and tests, it's recommended to use Caffeine cache in production.You can switch to using Caffeine cache, by adding it and org.springframework.cache.caffeine.CaffeineCacheManager to the classpath.
+2023-11-03 16-02-02.344 [INFO] org.springframework.cloud.netflix.eureka.InstanceInfoFactory [main] Setting initial instance status as: STARTING
+2023-11-03 16-02-02.424 [INFO] com.netflix.discovery.DiscoveryClient [main] Initializing Eureka in region us-east-1
+2023-11-03 16-02-02.430 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [main] Resolving eureka endpoints via configuration
+2023-11-03 16-02-02.460 [INFO] com.netflix.discovery.DiscoveryClient [main] Disable delta property : false
+2023-11-03 16-02-02.460 [INFO] com.netflix.discovery.DiscoveryClient [main] Single vip registry refresh property : null
+2023-11-03 16-02-02.460 [INFO] com.netflix.discovery.DiscoveryClient [main] Force full registry fetch : false
+2023-11-03 16-02-02.460 [INFO] com.netflix.discovery.DiscoveryClient [main] Application is null : false
+2023-11-03 16-02-02.460 [INFO] com.netflix.discovery.DiscoveryClient [main] Registered Applications size is zero : true
+2023-11-03 16-02-02.460 [INFO] com.netflix.discovery.DiscoveryClient [main] Application version is -1: true
+2023-11-03 16-02-02.460 [INFO] com.netflix.discovery.DiscoveryClient [main] Getting all instance registry info from the eureka server
+2023-11-03 16-02-02.885 [INFO] com.netflix.discovery.DiscoveryClient [main] The response status is 200
+2023-11-03 16-02-02.888 [INFO] com.netflix.discovery.DiscoveryClient [main] Starting heartbeat executor: renew interval is: 30
+2023-11-03 16-02-02.892 [INFO] com.netflix.discovery.InstanceInfoReplicator [main] InstanceInfoReplicator onDemand update allowed rate per min is 4
+2023-11-03 16-02-02.897 [INFO] com.netflix.discovery.DiscoveryClient [main] Discovery Client initialized at timestamp 1699007522896 with initial instances count: 5
+2023-11-03 16-02-02.902 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaServiceRegistry [main] Registering application RM-SERVICE with eureka with status UP
+2023-11-03 16-02-02.904 [INFO] com.netflix.discovery.DiscoveryClient [main] Saw local status change event StatusChangeEvent [timestamp=1699007522904, current=UP, previous=STARTING]
+2023-11-03 16-02-02.907 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_RM-SERVICE/192.168.2.58:rm-service:8087: registering service...
+2023-11-03 16-02-02.949 [INFO] org.springframework.boot.web.embedded.tomcat.TomcatWebServer [main] Tomcat started on port(s): 8087 (http) with context path ''
+2023-11-03 16-02-02.951 [INFO] org.springframework.cloud.netflix.eureka.serviceregistry.EurekaAutoServiceRegistration [main] Updating port to 8087
+2023-11-03 16-02-02.961 [INFO] com.netflix.discovery.DiscoveryClient [DiscoveryClient-InstanceInfoReplicator-0] DiscoveryClient_RM-SERVICE/192.168.2.58:rm-service:8087 - registration status: 204
+2023-11-03 16-02-02.993 [INFO] com.example.reportingManager.ReportingMnagerApplication [main] Started ReportingMnagerApplication in 9.32 seconds (process running for 10.233)
+2023-11-03 16-07-03.262 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 16-12-04.062 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 16-17-05.376 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 16-22-05.273 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 16-27-06.066 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 16-32-06.098 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 16-37-07.261 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 16-42-08.052 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 16-47-08.853 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 16-52-10.030 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 16-57-10.058 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 17-02-10.851 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 17-07-10.926 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 17-12-12.055 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 17-17-12.851 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 17-22-13.656 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 17-27-14.670 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 17-32-14.850 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
+2023-11-03 17-37-15.646 [INFO] com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver [AsyncResolver-bootstrap-executor-0] Resolving eureka endpoints via configuration
